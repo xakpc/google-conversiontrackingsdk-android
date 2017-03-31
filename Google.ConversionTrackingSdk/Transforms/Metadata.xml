@@ -1,0 +1,31 @@
+<metadata>
+  <!-- Normalize the namespace for .NET -->
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']"
+      name="managedName">Google.Ads.ConversionTracking</attr>
+
+  <!-- name='reportWithConversionId' and count(parameter)=5 -->
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=5]/parameter[@name='p0']"
+      name="name">applicationContext</attr>
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=5]/parameter[@name='p1']"
+      name="name">conversionId</attr>
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=5]/parameter[@name='p2']"
+      name="name">label</attr>
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=5]/parameter[@name='p3']"
+      name="name">value</attr>
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=5]/parameter[@name='p4']"
+      name="name">isRepeatable</attr>
+
+  <!-- name='reportWithConversionId' and count(parameter)=6 -->
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=6]/parameter[@name='p0']"
+      name="name">applicationContext</attr>
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=6]/parameter[@name='p1']"
+      name="name">conversionId</attr>
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=6]/parameter[@name='p2']"
+      name="name">label</attr>
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=6]/parameter[@name='p3']"
+      name="name">value</attr>
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=6]/parameter[@name='p4']"
+      name="name">currencyCode</attr>
+  <attr path="/api/package[@name='com.google.ads.conversiontracking']/class[@name='AdWordsConversionReporter']/method[@name='reportWithConversionId' and count(parameter)=6]/parameter[@name='p4']"
+      name="name">isRepeatable</attr>
+</metadata>
